@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:ital,wght@1,300;1,400&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+
+}
+html,body{
+    height: 100%;
+    
+}
+
+body{
+    background-color: rgb(211, 211, 211)
+}
+.container{
+    
+    max-width: 30em;
+    margin: 0 auto;
+    background-color: white;
+
+}
+
+.whats-app-header{
+    display: flex;
+    color:  rgb(12, 65, 240) ;
+    justify-content: space-between;
+    margin-left: 20px ;
+    margin-right: 20px ;
+    align-items: center;
+    padding-top: 10px;
+
+
+}
+
+.cam{
+  
+    padding-right: 20px;
+}
+
+.chats{
+    margin-top: 15px;
+    font-size: 2rem;
+    margin-left: 1.5rem;
+}
+
+.search-box{
+    position: relative;
+}
+.search-box input{
+   
+    width:90%;
+    height: 2rem;
+    margin-left:20px ;
+    border-radius: 9px;
+    margin-top: 5px;
+    background-color:rgb(206, 204, 204);
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    padding-left: 35px;
+   
+    font-family: inherit;
+    
+    
+}
+.search{
+    position: absolute;
+    left: 30px;
+    top: 11px;
+    color:gray;
+}
+.brod-grup{
+    display: flex;
+    justify-content: space-between;
+    margin-left:22px;
+    margin-right: 28px;
+    margin-top: 15px;
+    color:  rgb(12, 65, 240) ;
+}
+
+
+.icon-container{
+    
+    font-size: 2rem
+}
+
+.icon-container .edit{
+    
+    
+   
+  font-size: 1.7rem;
+}
+
+.profile-pic{
+    width:70px;
+    height:70px;
+    border-radius: 50%;
+    
+    
+     
+   
+   
+}
+
+.profile-pic > img{
+    width:100%;
+    height:100%;
+    border-radius: 50%;
+    border: none;
+    
+}
+.chat-messages{
+    margin-left:19px;
+   
+    
+    justify-content: space-between;
+    display: flex;
+    cursor: pointer;
+    margin-top: 8px;
+    
+   
+}
+.contact-name{
+    
+    margin-top:5px;
+    font-size: 17px;
+    margin-left: 20px;
+    
+    
+}
+.message{
+    position: relative;
+    font-weight: lighter;
+    font-size: 13px;
+    color: gray;
+    bottom: 8px;
+  
+    
+}
+
+
+.chatmescont:hover{
+    padding-top: 1px;
+   
+    
+    background-color: rgb(219, 219, 219);
+}
+.status-active{
+    border: 3px solid rgb(12, 65, 240) ;  
+   
+
+}
+.name-profile{
+    display: flex;
+}
+.time{
+    margin-right: 22px;
+    margin-top: 7px;
+    font-size: 12px;
+}
+
+.unread{
+
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background-color: rgb(12, 65, 240);
+    color: white;
+    display: inline-block;
+    font-size: 10px;
+    padding-left:4px;
+    margin-top: 5px;
+    float: right;
+}
+.time-unread{
+    color: rgb(12, 65, 240);
+    font-size: 12px;
+}
+
